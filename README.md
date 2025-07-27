@@ -1,115 +1,118 @@
-# 👋 Hello! I’m Cem UĞUZ
+# 👋 Hi there! I'm Cem UĞUZ
 
-I'm a **computational physicist (PhD)** and full-time researcher at [**HiTMer – Center for Computational Drug Design**](https://www.durdagilab.com), where I develop AI-powered tools and scientific pipelines for molecular modeling, dynamics simulations, and drug discovery.
-
+I'm a **Computational Physicist (PhD)** and a full-time researcher at [**HiTMer – Center for Computational Drug Design**](https://www.durdagilab.com). My work focuses on building **AI-powered molecular modeling frameworks**, combining **physics-based simulations**, **deep learning**, and **generative models** for drug discovery.
 
 ---
 
-## 🔬 What I Work On
+## 🔬 Research Interests & Expertise
 
-I specialize in designing and implementing pipelines that integrate:
+I design and develop modular scientific pipelines with a strong emphasis on:
 
 - 🧬 **Molecular Dynamics (GROMACS, NAMD, OpenMM)**
 - 🤖 **Deep Learning for Molecular Science**
 - 🌐 **Graph Neural Networks & Diffusion Models**
 - 🔍 **Virtual Screening and Binding Affinity Prediction**
 - ⚗️ **Physics-Informed Neural Networks (PINNs)**
-
+- 💻 **End-to-end ML pipelines with reproducibility and physical fidelity**
+  
 Since **August 2024**, I've been a full-time researcher at HiTMer, working on projects that bridge physics-based simulation and machine learning — including differentiable force fields, generative modeling, and structure-based prediction frameworks.
 
-All tools and models are implemented from scratch by me, with a strong focus on **modularity**, **reproducibility**, and **physical accuracy**.
+All tools and models are implemented from scratch by me, with a strong focus on modularity, reproducibility, and physical accuracy.
 
 ---
 
-## 📦 Featured Tools
+## 🧰 Featured Tools & Projects
 
-### 🔹 [MolPrism – Molecular Clustering Toolkit](https://github.com/cemuguz-lab/MolPrism-Molecular-Clustering-and-Analysis-Toolkit)
-> Explore molecular space with unsupervised clustering based on CNN-affinity. Visualize large conformer datasets in 2D/3D, identify chemical motifs, and extract key trends.
+### 🔹 [MolPrism](https://github.com/cemuguz-lab/MolPrism-Molecular-Clustering-and-Analysis-Toolkit)
+> **Molecular Clustering and Visualization Toolkit**
 
-- Graph-based conformer analysis
-- UMAP/PCA/t-SNE projections
-- Publication-ready visualizations
+MolPrism is a high-performance command-line tool for clustering and analyzing molecular datasets. It helps researchers explore chemical libraries, identify structurally related compound groups, and select representative molecules for further study.
 
----
+- Supports multiple clustering algorithms **(KMeans, DBSCAN, Agglomerative)**
+- Automatic k-value optimization via **Elbow and Silhouette** methods
+- Customizable **feature selection** from molecular descriptor sets
+- **Representative molecule selection** using centroids or medoids
+- **Parallel processing** for fast large-scale clustering
+- PCA-based **2D visualization and detailed CSV reporting**
+- Fully configurable via **command-line or YAML files**
 
 ### 🔹 [CAGE – ConformerTool](https://github.com/cemuguz-lab/CAGE-ConformerTool)
-> Generate 3D conformers and docked poses for molecular datasets. Fast, customizable, and built for downstream ML integration.
+> **Conformer generation and grid filtering tool**
 
-- Open Babel + GNINA + RDKit integration
-- Conformer filtering, sorting, and scoring
-- Ready for virtual screening pipelines
+CAGE is a robust, parallelized Python tool for generating 3D conformers from SMILES strings, specifically designed to prepare ligands for docking simulations using tools like GNINA and AutoDock Vina.
 
----
-
-## 🚧 Ongoing & Upcoming Work
-
-In addition to the tools listed above, I’m actively developing a number of **AI-driven molecular modeling frameworks**, including:
-
-- ⚛️ Generative models for protein-ligand complex generation
-- 🧠 Physics-Informed Diffusion Models
-- 🧮 Differentiable Force Field Modules (CHARMM-based)
-- 🎵 Sonification Project (a surprise in the making)
-
-Some of these efforts are being developed in collaboration with academic teams and are currently **in active development or manuscript preparation**. Others are under peer-review for scientific publication.
-
-🔒 For this reason, their source code is **not yet publicly available** — but **will be released alongside the corresponding academic articles** once they are finalized.
-
+- RDKit-based conformer generation with **MMFF94 minimization**
+- Optional **tautomer standardization** and **hydrogen handling**
+- **Conformer translation** & **filtering based on a 3D grid box**
+- Outputs **multi-conformer SDF files** ready for docking
+- Modular, **object-oriented architecture** for extensibility
+- Optimized for high-throughput drug discovery pipelines
+  
+While advanced features like **RMSD-based pruning** are planned for future versions, CAGE already provides a solid foundation for efficient and reproducible conformer preprocessing workflows.
 
 ---
 
-## 🤝 Collaboration & Vision
+## 🚧 In Development
 
-I'm deeply committed to open-source science and building reusable infrastructure for **physics-aware AI in drug discovery**.
+Currently building and refining:
 
-I created this GitHub space not only to share general-purpose cheminformatics tools, but also to eventually publish the **core engines** I’ve built for my academic research.
+- ⚛️ **Generative models** for protein-ligand 3D structure generation  
+- 🧠 **Physics-Informed Diffusion Models** (PINN + DDPM hybrid)  
+- 🧮 **CHARMM-based Differentiable Force Fields**  
+- 🎵 A secret **Sonification Project** exploring molecular-to-sound translation  
 
-📢 I’m open to **collaborations**, particularly in:
+Some of these efforts are being developed in collaboration with academic teams and are currently in active development or manuscript preparation. Others are under peer-review for scientific publication.
 
-- 🧠 **Generative AI for molecular systems**
-- ⚗️ **Physics-Informed Machine Learning**
-- 💊 **Computational Drug Discovery and Design**
-
-If you're working in these areas or just want to exchange ideas, feel free to reach out.
-
----
-
-## 🧠 About Me
-
-- 🎓 **PhD in Physics**, Yıldız Technical University  
-- 🧪 Background in **molecular dynamics**, **ab initio modeling**, and **optical simulations**  
-- 🤖 Experienced in **PyTorch**, **RDKit**, **GROMACS**, **Scikit-learn**, and more  
-- 🧰 Passionate about building interpretable and scalable tools for scientific discovery  
+🔒 For this reason, their source code is not yet publicly available — but will be released alongside the corresponding academic articles once they are finalized.
 
 ---
 
-## ⚙️ Tools & Stack
+## 🤝 Let's Collaborate
 
-| Domain                | Tools / Frameworks                     |
-|----------------------|----------------------------------------|
-| MD & Simulation       | GROMACS, NAMD, OpenMM                 |
-| ML & Deep Learning    | PyTorch, Scikit-learn, TensorFlow     |
-| Graph Learning        | DGL, PyG, NetworkX                    |
-| Molecular Modeling    | RDKit, Open Babel, GNINA              |
-| Environment & Tools   | Linux, CentOS, Ubuntu, VSCode, LaTeX |
+I’m always open to collaboration and idea exchange, especially in:
+
+- 💊 AI-driven Drug Discovery  
+- 🔬 Scientific ML Infrastructure  
+- 🧬 Physics-Informed Generative Models  
+
+📬 Reach out if you’re working on similar ideas or looking to co-develop something in this space.
 
 ---
 
-## 🌍 Let's Connect
+## 👤 About Me
+
+- 🎓 PhD in Physics (Yıldız Technical University)  
+- 🧪 Trained in **molecular simulations**, **optical modeling**, and **ab initio methods**  
+- 🧰 Skilled in **PyTorch**, **RDKit**, **GROMACS**, **DGL**, **LaTeX**, and **Python backend design**  
+- 🔎 Passionate about reproducible, interpretable, and modular scientific software  
+
+---
+
+## ⚙️ Technical Stack
+
+| Area                  | Tools / Frameworks                             |
+|-----------------------|------------------------------------------------|
+| Simulations           | GROMACS, OpenMM, NAMD                         |
+| Deep Learning         | PyTorch, Scikit-learn, TensorFlow             |
+| Graph Learning        | DGL, PyTorch Geometric, NetworkX              |
+| Cheminformatics       | RDKit, GNINA, Open Babel                      |
+| Tooling & Infra       | Ubuntu, CentOS, MacOS, VSCode, Git, LaTeX            |
+
+---
+
+## 🌐 Contact
 
 - 📫 cemuguzlab[at]gmail[dot]com  
-<!-- 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)  
-- 📚 [ResearchGate](https://www.researchgate.net/profile/Your-Name)  
--->  
+<!-- - 🔗 [LinkedIn](...)  
+- 📚 [ResearchGate](...)  -->
 - 💻 [GitHub](https://github.com/cemuguz-lab)
 
 ---
 
-## ✈️ Extra
+## ✈️ Bonus
 
-I also have a background in **software development**, **electronics**, and HPC systems. Whether it’s building differentiable simulators or interactive ML workflows, I enjoy solving problems that combine **physics**, **computation**, and **biological systems**.
-
+Aside from my scientific work, I enjoy building tools that merge **computation, physics, and creativity** — from interactive notebooks to generative design systems.
 
 ---
 
-📌 _Thanks for stopping by! Stay tuned for research-driven AI projects soon to be open-sourced._
+> _Thanks for visiting! Stay tuned — more open-source science is on the way._
