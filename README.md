@@ -1,4 +1,4 @@
-# 👋 Hi there! I'm Cem UĞUZ
+# 👋 Hello, I'm Cem UĞUZ
 
 I'm a **Computational Physicist (PhD)** and a full-time researcher at [**HiTMer – Center for Computational Drug Design**](https://www.durdagilab.com). My work focuses on building **AI-powered molecular modeling frameworks**, combining **physics-based simulations**, **deep learning**, and **generative models** for drug discovery.
 
