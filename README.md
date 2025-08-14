@@ -2,6 +2,8 @@
 
 I'm a **Computational Physicist (PhD)** and a full-time researcher at [**HiTMer – Center for Computational Drug Design**](https://www.durdagilab.com). My work focuses on building **AI-powered molecular modeling frameworks**, combining **physics-based simulations**, **deep learning**, and **generative models** for drug discovery.
 
+## ➡️ [Visit my personal website for more details: cemuguz-lab.github.io](https://cemuguz-lab.github.io)
+
 ---
 
 ## 🔬 Research Interests & Expertise
@@ -102,7 +104,8 @@ I’m always open to collaboration and idea exchange, especially in:
 
 ## 🌐 Contact
 
-- 📫 cemuguzlab[at]gmail[dot]com  
+- 📫 cemuguzlab[at]gmail[dot]com
+- **Website:** [cemuguz-lab.github.io](https://cemuguz-lab.github.io)
 <!-- - 🔗 [LinkedIn](...)  
 - 📚 [ResearchGate](...)  -->
 - 💻 [GitHub](https://github.com/cemuguz-lab)
